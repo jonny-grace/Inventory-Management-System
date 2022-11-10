@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,75 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.input-filed{
+  
+ display: grid;
+  width: 120px;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+.input-filed>div{
+  margin: 5px;
+  display: flex;
+}
+
+.login-container{
+  padding-top: 30px;
+  min-width: 500px;
+  min-height: 280px;
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #1e3f48;
+  color: white;
+  border-radius: 4px;
+  box-shadow: #d21313;
+  
+  
+}
+button{
+  margin: 20px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: #282c34;
+  color: white;
+}
+
+
+input{
+  box-shadow: #282c34;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.list-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap:10px;
+  margin: 15px;
+  padding: 15px;
+}
+
+.list-items{
+  border-radius: 5px;
+  background-color: aliceblue;
+  color: black;
+  width: 250px;
+  min-height: 170px;
+}
+.list-items>div{
+  margin-top: 15px;
+  font-weight: bold;
+}
+.activate{
+  margin-left: 50px;
+}
+
+.add-user{
+  margin-left: 200px;
 }
